@@ -1,0 +1,22 @@
+{
+  "name": "web-development-express-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasmine-zhang-nz/Web-Development-Express-Package.git"
+  },
+  "author": "Jasmine Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasmine-zhang-nz/Web-Development-Express-Package/issues"
+  },
+  "homepage": "https://github.com/jasmine-zhang-nz/Web-Development-Express-Package#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
