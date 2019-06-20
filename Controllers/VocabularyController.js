@@ -1,0 +1,7 @@
+
+
+exports.getVocabularyDetails = function(vocabId){
+
+
+
+}

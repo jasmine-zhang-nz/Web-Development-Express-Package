@@ -1,13 +1,10 @@
-let express = require('express')
-let app = express()
+let express = require('express');
+let app = express();
+let indexRouter = require('Routes/index');
+let vocabularyRouter = require('Routes/vocabulary');
 
-app.get('/', function(req,res){
-    res.send("This is home page")
-})
-
-app.get('/vocabulary', function(req,res){
-    res.send("Vocabulary Playground")
-})
+app.use('/', indexRouter)
+app.use('/vocabulary',vocabularyRouter);
 
 app.listen(3000, function(){
 
