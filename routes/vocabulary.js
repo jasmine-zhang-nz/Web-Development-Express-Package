@@ -1,6 +1,6 @@
 let express = require('express');
 let router = express.Router();
-let vocabularyController = require('../Controllers/VocabularyController');
+let vocabularyController = require('../controllers/VocabularyController');
 
 
 router.get('/vocabulary',function(req,res){
