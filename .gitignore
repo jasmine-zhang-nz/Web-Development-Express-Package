@@ -1,4 +1,4 @@
 .idea/*
 LocalStorage/*.json
 node_modules
-ToSearch.json
+words
