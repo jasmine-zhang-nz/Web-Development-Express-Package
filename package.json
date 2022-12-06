@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/jasmine-zhang-nz/Web-Development-Express-Package#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-validator": "^6.0.1",
     "moment": "^2.24.0",
     "pug": "^2.0.4"
